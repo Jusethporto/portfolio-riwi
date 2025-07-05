@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Personal Portfolio</title> <!-- Título que aparece en la pestaña del navegador -->
+    <meta name="description" content="Personal portfolio of Juseth Porto as a Riwi Dev."> 
+</head>
+<body> <!-- Contenido visible de la página -->
+    <header>
+        <h1> Juseth Porto - Riwi Developer</h1> <!-- Encabezado principal de la página -->
+    </header>
+
+    <section> <!-- Sección de navegación -->
+        <nav> <!-- Elemento de navegación -->
+            <a href="#about-me">About me</a> <!-- Enlace interno a la sección "Sobre mí" -->
+            <a href="#projects">Projects</a> <!-- Enlace interno a la sección "Proyectos" -->
+            <a href="#contact">Contact</a> <!-- Enlace interno a la sección "Contacto" -->
+        </nav>
+    </section>
+
+
+    <section id="about-me"> <!-- Sección "Sobre mí" con ID para navegación interna -->
+        <h2>About me</h2> <!-- Subtítulo de la sección -->
+        <p>Developer passionate about creating solutions with Python, HTML and CSS...</p> <!-- Párrafo de descripción personal -->
+        <p>I love build attactive and functional web pages.</p> <!-- Párrafo adicional sobre intereses -->
+        <img src="images/juseth.jpg" alt="Juseth Porto Photo" width="200" height="200"> <!-- Imagen de perfil con dimensiones específicas -->
+    </section>
+
+    <section> <!-- Sección de habilidades -->
+        <h2>My Skills</h2> <!-- Subtítulo de la sección -->
+        <ul> <!-- Lista desordenada para enumerar habilidades -->
+            <li>Python</li> <!-- Elemento de lista: Python -->
+            <li>HTML</li> <!-- Elemento de lista: HTML -->
+            <li>CSS</li> <!-- Elemento de lista: CSS -->
+        </ul>
+    </section>
+
+    <section id="projects"> <!-- Sección de proyectos con ID para navegación interna -->
+        <h2> My Projects</h2> <!-- Subtítulo de la sección -->
+        <h3> Project 1: Portfolio Website</h3> <!-- Título del primer proyecto -->
+        <p> This is my first project built porfolio using Html,CSS.
+        </p> <!-- Descripción del proyecto -->
+        <img src="images/men.jpg" alt="Men" width="300"> <!-- Imagen del proyecto con ancho específico -->
+
+        <table> <!-- Tabla para mostrar información de proyectos -->
+            <tr> <!-- Fila de encabezado -->
+                <th>Project Name</th> <!-- Celda de encabezado: Nombre del proyecto -->
+                <th>Technologies Used</th> <!-- Celda de encabezado: Tecnologías usadas -->
+                <th>Link</th> <!-- Celda de encabezado: Enlace -->
+            </tr>
+            <tr> <!-- Fila de datos -->
+                <td> Portfolio</td> <!-- Celda de datos: Nombre del proyecto -->
+                <td> HTML,CSS </td> <!-- Celda de datos: Tecnologías usadas -->
+                <td><a href=# >view Project</a></td> <!-- Celda con enlace al proyecto -->
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact"> <!-- Sección de contacto con ID para navegación interna -->
+        <h2> Contact me</h2> <!-- Subtítulo de la sección -->
+        <form action="" method=""> <!-- Formulario de contacto sin método -->
+            <label for="name"> Name: </label> <!-- Etiqueta para el campo de nombre -->
+            <input type="text" id="name" name="name" required> <!-- Campo de entrada para el nombre (obligatorio) -->
+
+            <label for="email"> Email: </label> <!-- Etiqueta para el campo de email -->
+            <input type="email" id="email" name="email" required> <!-- Campo de entrada para el email (obligatorio) -->
+
+            <label for="message"> Message: </label> <!-- Etiqueta para el campo de mensaje -->
+            <textarea id="message" name="message" rows="5" required></textarea> <!-- Área de texto para el mensaje (obligatorio) -->
+            
+            <input type="submit" value="send"> <!-- Botón de envío del formulario -->
+        </form>
+    </section>
+
+    <section> <!-- Sección de redes sociales -->
+        <h2> Social Networks</h2> <!-- Subtítulo de la sección -->
+        <a href="https://github.com/Jusethporto/" target="_blank">Github</a> <!-- Enlace a GitHub (se abre en nueva pestaña) -->
+        <a href="https://instagram.com/Jusethporto/" target="_blank">Instagram</a> <!-- Enlace a Instagram (se abre en nueva pestaña) -->
+        <a href="https://linkedin.com/in/Jusethporto" target="_blank">Linkedin</a> <!-- Enlace a LinkedIn (se abre en nueva pestaña) -->
+    </section>
+
+    <footer>  <!-- Elemento de pie de página con derechos de autor -->
+        <p> Todos los derechos reservados Riwi.</p>
+        <p> &copy; 2025 Juseth Porto</p>
+    </footer>
+
+
+</body>
+</html>
